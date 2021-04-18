@@ -6,8 +6,8 @@ var score = 0;
 
 function newNumber() {
     document.getElementById("sum").value = "";
-randomno1 = Math.floor(Math.random() * tono);
-randomno2 = Math.floor(Math.random() * tono);
+randomno1 = Math.floor(Math.random() * 10);
+randomno2 = Math.floor(Math.random() * 10);
 product = randomno1 * randomno2 ;
 document.getElementById("a1").innerHTML = randomno1 + " × " + randomno2 + " =";
 document.getElementById("2").innerHTML = product;
