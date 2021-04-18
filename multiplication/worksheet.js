@@ -1,5 +1,5 @@
-var fromno = localStorage.getItem("from");
-var tono = localStorage.getItem("to");
+var fromno = 30;
+var tono = 30;
 var randomno1 = 0;
 var randomno2 = 0;
 var score = 0;
