@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="main.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Multiplication Test</title>
+    <script src="worksheet.js"></script>
 </head>
-<body>
-    <input type="number" class="input" id="start-number" placeholder="From">
-    <input type="number" class="input" id="end-number" placeholder="Till">
-    <button class="btn-btn" onclick="gene()">Generate</button>
+<body onload="newNumber()">
+    <label id="a1"></label>
+    <label id="a2"></label>
+    <input type="number" id="sum">
+    <button onclick="check()">Next</button>
+    <button onclick="showscore()">Show The Score</button>
 </body>
 </html>
